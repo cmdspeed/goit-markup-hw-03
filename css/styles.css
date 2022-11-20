@@ -1,0 +1,209 @@
+:root {
+    --main-text-color: #212121;
+    --logo-color: #2196f3;
+    --contacts-color: #757575;
+    --filters-bg-color: #f5f4fa;
+    --footer-section: #2f303a;
+    --contacts-footer-color: rgba(255, 255, 255, 0.6);
+    --second-color: #ffffff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--logo-color);
+}
+
+.filters:hover,
+.filters:focus {
+    background-color: var(--logo-color);
+    color: var(--second-color);
+    border-color: var(--logo-color);
+    cursor: pointer;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    width: 145px;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    line-height: 1.9;
+}
+
+.web {
+    color: var(--logo-color);
+}
+
+.top-menu {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts {
+    color: var(--contacts-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.filters {
+    background-color: var(--filters-bg-color);
+    border-radius: 4px;
+    border-color: var(--filters-bg-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    width: 121px;
+    height: 38px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-three {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--contacts-color);
+}
+
+.footer-section {
+    background-color: var(--footer-section);
+    color: #fff;
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.adres {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+
+.email {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: var(--contacts-footer-color);
+}
+
+.tel {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--contacts-footer-color);
+    text-decoration: none;
+}
+
+.button-index {
+    width: 200px;
+    height: 50px;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--second-color);
+    background-color: var(--logo-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: var(--logo-color);
+}
+
+.header-first {
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--second-color);
+}
+
+.welcome {
+    background-color: var(--footer-section);
+    height: 600px;
+}
+
+.header-third-index {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.paragraph-index {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--contacts-color);
+}
+
+.header-second-index {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team {
+    background: var(--filters-bg-color);
+}
+
+.header-third-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.paragraph-team {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--contacts-color);
+}
