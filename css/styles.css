@@ -6,11 +6,23 @@
     --footer-section: #2f303a;
     --contacts-footer-color: rgba(255, 255, 255, 0.6);
     --second-color: #ffffff;
+    --nav-border: 1px solid #ececec;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-text-color);
+}
+
+.container {
+    margin: auto;
+    width: 1200px;
+}
+
+.header-class {
+    display: flex;
+    align-items: center;
+    border-bottom: var(--nav-border);
 }
 
 .link {
@@ -53,6 +65,32 @@ body {
     letter-spacing: 0.02em;
 }
 
+.top-menu ul {
+    display: flex;
+    padding-left: 93px;
+}
+
+.top-menu li {
+    margin-right: 46px;
+}
+
+.top-menu li:last-child {
+    margin-right: 0;
+}
+
+.ul-address-nav {
+    display: flex;
+    padding-left: 371px;
+}
+
+.ul-address-nav li {
+    margin-right: 50px;
+}
+
+.ul-address-nav li:last-child {
+    margin-right: 0;
+}
+
 .contacts {
     color: var(--contacts-color);
     font-family: inherit;
@@ -73,7 +111,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     width: 121px;
-    height: 38px;
+    /* height: 38px; */
 }
 
 ul {
@@ -136,7 +174,7 @@ ul {
 
 .button-index {
     width: 200px;
-    height: 50px;
+    /* height: 50px; */
     font-family: inherit;
     font-size: 16px;
     line-height: 1.87;
@@ -163,7 +201,7 @@ ul {
 
 .welcome {
     background-color: var(--footer-section);
-    height: 600px;
+    /* height: 600px; */
 }
 
 .header-third-index {
