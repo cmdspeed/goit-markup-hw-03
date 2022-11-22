@@ -7,6 +7,7 @@
     --contacts-footer-color: rgba(255, 255, 255, 0.6);
     --second-color: #ffffff;
     --nav-border: 1px solid #ececec;
+    --border-color-portfolio: #eeeeee;
 }
 
 body {
@@ -116,8 +117,6 @@ body {
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
-    width: 121px;
-    /* height: 38px; */
 }
 
 ul {
@@ -140,6 +139,7 @@ ul {
 .footer-section {
     background-color: var(--footer-section);
     color: var(--second-color);
+    padding-top: 60px;
 }
 
 address ul {
@@ -185,8 +185,8 @@ address ul {
 }
 
 .button-index {
-    width: 200px;
-    /* height: 50px; */
+    display: flex;
+    padding: 7px 38px;
     font-family: inherit;
     font-size: 16px;
     line-height: 1.87;
@@ -199,6 +199,7 @@ address ul {
     cursor: pointer;
     border-color: var(--logo-color);
     margin-left: 700px;
+    margin-right: 700px;
     margin-bottom: 106px;
 }
 
@@ -216,7 +217,6 @@ address ul {
 
 .welcome {
     background-color: var(--footer-section);
-    /* height: 600px; */
 }
 
 .header-third-index {
@@ -268,7 +268,8 @@ address ul {
 
 .card,
 .boxes,
-.team-list {
+.team-list,
+.filter {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -292,5 +293,40 @@ figure {
     display: flex;
     margin: 0;
     background-color: var(--second-color);
+}
+
+.figure-index {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.div-flex-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-left: 510px;
+    padding-right: 518px;
+}
+
+.div-flex-filters button {
+    flex-basis: calc((100% - 4 * 8px) / 5);
+}
+
+.filter figure img {
+    background-color: var(--border-color-portfolio);
+}
+
+.filter img {
+    display: block;
+}
+
+.filter p {
+    border-bottom: 1px solid;
+}
+
+.filter h3,
+.filter p {
+    margin: 0;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: var(--border-color-portfolio);
 }
