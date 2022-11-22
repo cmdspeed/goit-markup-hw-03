@@ -139,10 +139,16 @@ ul {
 
 .footer-section {
     background-color: var(--footer-section);
-    color: #fff;
+    color: var(--second-color);
+}
+
+address ul {
+    padding: 20px 0 60px 215px;
+    margin: 0;
 }
 
 .logo-footer {
+    padding-left: 215px;
     font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;
@@ -258,4 +264,33 @@ ul {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.card,
+.boxes,
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.card li {
+    flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
+.boxes li {
+    flex-basis: calc((100% - 2 * 30px) / 3);
+}
+
+.team-list li {
+    flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
+figure {
+    display: flex;
+    margin: 0;
+    background-color: var(--second-color);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
